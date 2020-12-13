@@ -1,0 +1,32 @@
+.navbar{
+    background-color:black;
+    border-radius: 16px;
+    padding: 0px;
+    align-items: flex-end;
+    
+}
+.navbar li{
+    margin: 7px 15px;
+    padding: 2px 7px;
+    float:  left;
+    list-style-type: none;
+}
+.navbar ul{
+    overflow: auto;
+    
+}
+.navbar a{
+    color: white;
+    text-decoration-style: none;
+}
+.searchbox{
+    /* display:inline-block;
+    color: violet;
+    background-color: tomato;
+    border-radius: 5px;
+    padding: 4px 6px;
+    margin: 3px 3px; */
+}
+.navbar div{
+    nav-right: current;
+}

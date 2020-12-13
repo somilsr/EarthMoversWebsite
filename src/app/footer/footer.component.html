@@ -1,0 +1,18 @@
+<p>footer works!</p>
+<p>header works!</p>
+<h1>{{name}}</h1>
+<p>your server is {{getData()}}</p>
+<button name="add" class="btn btn-primary" [disabled]=!allowNewServer>add</button>
+<button (click)="serverCreation()">serverCreation</button>
+<div>{{serverCreationStatus}}</div>
+
+<input type="text" (input)="onUpdateServerName($event)">
+<label>{{serverName }}</label>
+<hr>
+<input type="password" (input)="myMsg($event)">
+<label>{{msg}}</label>
+<hr>
+<input type="text" class="" [(ngModel)]="userName">
+
+<label>{{userName}}</label>
+<button  class="btn btn-primary" [disabled]="userName===''" (click)="userName=''">Reset</button>
