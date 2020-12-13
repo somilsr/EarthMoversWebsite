@@ -19,14 +19,15 @@
     color: white;
     text-decoration-style: none;
 }
-.searchbox{
+/* .searchbox{
     /* display:inline-block;
     color: violet;
     background-color: tomato;
     border-radius: 5px;
     padding: 4px 6px;
-    margin: 3px 3px; */
-}
+    margin: 3px 3px;
+} 
+*/
 .navbar div{
     nav-right: current;
 }
